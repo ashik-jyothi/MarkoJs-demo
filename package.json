@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +15,8 @@
     "lasso": "^2.11.8",
     "lasso-marko": "^2.3.0",
     "marko": "^4.2.8",
-    "marko-router": "^1.0.0"
-  }
+    "marko-router": "^1.0.0",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
