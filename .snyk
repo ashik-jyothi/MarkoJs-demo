@@ -8,3 +8,6 @@ patch:
         patched: '2017-09-23T21:11:40.638Z'
     - lasso > send > debug > ms:
         patched: '2017-09-23T21:11:40.638Z'
+  'npm:debug:20170905':
+    - lasso > send > debug:
+        patched: '2017-09-27T05:09:08.980Z'
