@@ -16,7 +16,7 @@
     "lasso-marko": "^2.3.0",
     "marko": "^4.2.8",
     "marko-router": "^1.0.0",
-    "snyk": "^1.41.1"
+    "snyk": "^1.231.0"
   },
   "snyk": true
 }
